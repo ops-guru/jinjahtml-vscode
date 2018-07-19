@@ -43,6 +43,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-py",
+        "aliases": ["Jinja Python", "jinja-py"],
+        "extensions": ["py.j2", "py.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-yaml",
         "aliases": ["Jinja YAML", "jinja-yaml"],
         "extensions": [".yml.j2", ".yaml.j2", ".sls"],

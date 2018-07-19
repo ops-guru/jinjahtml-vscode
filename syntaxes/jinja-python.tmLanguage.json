@@ -1,0 +1,15 @@
+{
+  "name": "jinja-python",
+  "scopeName": "text.python.jinja",
+  "comment": "Jinja Python Templates",
+  "fileTypes": ["py.j2", "py.jinja2"],
+  "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.python"
+    }
+  ]
+}
